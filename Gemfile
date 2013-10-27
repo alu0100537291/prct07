@@ -1,6 +1,5 @@
 source 'http://rubygems.org'
+ 
+gem 'rake'
+gem 'rspec'	
 
-group :production, :test do
-	gem 'rake'
-	gem 'rspec'	
-end
