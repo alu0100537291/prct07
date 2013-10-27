@@ -1,5 +1,5 @@
 # LPP - Práctica 7
-## TRavis
+## Travis
 
 ### Guión  
 El guión de esta práctica se encuentra [aquí](http://campusvirtual.ull.es/1314/mod/assign/view.php?id=95140)
