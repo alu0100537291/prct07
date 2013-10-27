@@ -3,7 +3,7 @@ $:.unshift './lib', './spec'
 
 require 'rspec/core/rake_task'
 
-Rspec::Core::RakeTask.new
+RSpec::Core::RakeTask.new
 task :default => :spec
 
 desc "Ejecutando lib/frac_main.rb"
