@@ -4,6 +4,10 @@
 ### Guión  
 El guión de esta práctica se encuentra [aquí](http://campusvirtual.ull.es/1314/mod/assign/view.php?id=95140)
 
+### Estado
+
+[![Build Status](https://travis-ci.org/alu0100537291/prct07.png?branch=master)](https://travis-ci.org/alu0100537291/prct07)
+
 Autores
 -------
 | ALUMNO | CORREO |
