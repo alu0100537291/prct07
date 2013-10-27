@@ -3,12 +3,10 @@ task :default do
 	sh "ruby -Ilib lib/fracc.rb"
 end
 
-
 desc "Ejecutando tests"
 task :test do
 	sh "rspec --color --format documentation -Ilib -Ispec spec/frac_spec.rb"
 end
-
 
 desc "Ejecutando tests con formato: html"
 task :thtml do
