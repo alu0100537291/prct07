@@ -12,7 +12,7 @@ task :main do
 end
 
 desc "Ejecutando tests"
-task :test do
+task :spec do
 	sh "rspec --color --format documentation -Ilib -Ispec spec/frac_spec.rb"
 end
 
