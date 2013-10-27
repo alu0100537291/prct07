@@ -1,6 +1,8 @@
 require "./lib/mcd.rb"
 
 class Fraccion
+	include Comparable;
+
 	attr_accessor :num, :denom
 
 	def initialize(a, b)
@@ -48,6 +50,7 @@ class Fraccion
 		division.num % division.denom
 	end
 
+=begin
 	def ==(numero)
 		if ((@num == numero.num) && (@denom == numero.denom))
 			true
@@ -55,6 +58,7 @@ class Fraccion
 			false
 		end
 	end
+=end
 
 	def abs
 		@num = @num.abs
@@ -74,6 +78,7 @@ class Fraccion
 		end
 	end
 
+=begin
 	def >(numero)
 		if (self.to_f > numero.to_f)
 			true
@@ -104,5 +109,11 @@ class Fraccion
 		else
 			false
 		end
+	end
+=end
+
+	def <=>(numero)
+		return nil unless numero.instance_of? Fraccion
+		(@num.to_f/@denom.to_f) <=> (numero.num.to_f/numero.denom.to_f)
 	end
 end
