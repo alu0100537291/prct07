@@ -108,9 +108,8 @@ describe Fraccion do
 	end
 
 	describe "Ejercicio opcional" do
-		it "Calcula el valor absoluto de la multiplicación de dos fracciones" do
+		it "Calcula el valor absoluto de la multiplicacion de dos fracciones" do
 			result = @f1.*(-3, 4).abs.to_s.should eq ("3/8")
-			#@result.abs.to_s.should eq ("3/8")
 		end
 	end
 end
