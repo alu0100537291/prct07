@@ -13,7 +13,7 @@ end
 
 desc "Ejecutando tests"
 task :spec do
-	sh "rspec -Ilib -Ispec spec/frac_spec.rb"
+	sh "rspec spec/frac_spec.rb"
 end
 
 desc "Ejecutando tests con formato: html"
