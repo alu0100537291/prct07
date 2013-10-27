@@ -12,12 +12,8 @@ task :main do
 end
 
 desc "Ejecutando tests"
-task :spec do
-<<<<<<< HEAD
-	sh "rspec --color --format documentation -Ilib -Ispec spec/frac_spec.rb"
-=======
-	sh "rspec frac_spec.rb"
->>>>>>> 0d717024c141d25c93c561754ba7bbec59115697
+task :local do
+	sh "rspec -Ilib -Ispec spec/frac_spec.rb"
 end
 
 desc "Ejecutando tests con formato: html"
